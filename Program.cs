@@ -4,7 +4,11 @@
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            input inp = new();
+
+            List<Tuple<string, string>> data = inp.input_d();
+
+            Console.WriteLine("Производится расчёт");
         }
     }
 }
